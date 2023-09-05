@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+}
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #003B62;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content:
+        /*space-around;*/
+        center
+}
+
+li {
+    list-style: none;
+    /* float: left */
+}
+
+.btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background-color: #f7f7f7;
+    /* font-size: 12 !important; */
+    font-weight: 300px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 10px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 20px;
+    box-shadow: 0 6px #312fa8;
+}
+
+.btn:hover {
+    box-shadow: 0 4px #052e9e;
+    top: 2px;
+}
+
+.btn:active {
+    box-shadow: none;
+    top: 6px;
+}
+
+body {
+    background-color: #eed6a8
+}
+
+.sectionImagen {
+    /* margin-left: 30px; */
+    font-size: 20px;
+    /* position: relative; */
+    left: -170px;
+    color: white;
+    background-color: brown;
+    margin-top: 10px;
+    border-radius: 40px;
+    padding: 10px;
+
+}
+.encabezadoPrincipal {
+    display:flex;
+    justify-content: space-around;
+    font-family: 'Kanit', sans-serif;
+    text-align: justify;
+    margin: 20px; 
+    color: black
+}
+
+.encabezados {
+    display:flex;
+    justify-content: space-around;
+    font-family: 'Kanit', sans-serif;
+    text-align: justify;
+    margin: 20px; 
+    color: black
+}
+
+.cajaImagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    justify-content: center;
+}
+
+.cajaImg{
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    width: 500px;
+}
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:none;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "foto-1 foto-2"
+    "foto-3 foto-4";
+}
+
+.foto-1 { grid-area: foto-1; }
+
+.foto-2 { grid-area: foto-2; }
+
+.foto-3 { grid-area: foto-3; }
+
+.foto-4 { grid-area: foto-4; }

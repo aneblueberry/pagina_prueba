@@ -1,0 +1,46 @@
+.fondo {
+    height: 97vh;
+    background: linear-gradient(45deg, #0a0a0a, #0e67b6);
+   
+}
+
+.titulo {
+    color: rgb(237, 222, 4);
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;   
+    margin-top: 60px;
+   
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(7, 55, 70);
+    
+  }
+
+.hipervinculo {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    outline: none;
+    color: rgb(235, 177, 19)
+}
+
+a:visied {
+    color: brown;
+}
+
+a:link {
+    color: orange
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./style/entretenimiento.css">
+</head>
+
+<body class="body">
+  <style>
+    /* width */
+    ::-webkit-scrollbar {
+      width: 15px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey; 
+      border-radius: 10px;
+    }
+     
+   /* Handle */
+   ::-webkit-scrollbar-thumb {
+          background: #eed6a8; 
+          border-radius: 10px;
+        }
+        
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+          background:#003B62;  
+        }
+    </style>
+  <header>
+    <nav style="width: 100%;">
+      <ul style="display: flex; justify-content: space-around;">
+        <li><button class="btn"><a href="index.html">Inicio</button></a></li>
+        <li><button class="btn"><a href="accomodation.html">Alojamiento</button></a></li>
+        <li><button class="btn"><a href="actividades.html">Visitas y Actividades</button></a></li>
+        <li><button class="btn"><a href="entretenimiento.html">Entretenimiento</button></a></li>
+        <li><button class="btn"><a href="form.html">Contactanos</button></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <script> 
+    function alternarDetalle(id) {
+    let detalle = document.getElementById(id);
+    if (detalle.style.display === "block") {
+      detalle.style.display = "none";
+    } else {
+      detalle.style.display = "block";
+    }
+  }
+  </script>
+  <h1 class="encabezadoPrincipal">LUGARES EXTRA DE ENTRETENIMIENTO EN MARACAIBO</h1>
+
+  <div class="imagen cajaImagen" onclick="alternarDetalle('detalle1')">
+    <img class="cajaImg " src="./style/assets/aquaventura (1).jpg"
+      alt="Imagen 1">
+      <div id="detalle1" class="detalle">
+        <h2 class="encabezados">AQUAVENTURA PARK</h2>
+        <p class="parrafo">Parque acuatico para todo publico, ubicado en Av. 16 (Guajira), Maracaibo, Venezuela </p>
+      </div>
+  </div>
+  <!-- <div id="detalle1" class="detalle">
+    <h2 class="encabezados">AQUAVENTURA PARK</h2>
+    <p class="parrafo">Parque acuatico para todo publico, ubicado en Av. 16 (Guajira), Maracaibo, Venezuela </p>
+  </div> -->
+
+  <div class="imagen cajaImagen" onclick="alternarDetalle('detalle2')">
+    <img class="cajaImg" src="./style/assets/sambil2.jpg" alt="Imagen 2">
+  <div id="detalle2" class="detalle">
+    <h2 class="encabezados">C.C SAMBIL MARACAIBO</h2>
+    <p class="parrafo">El Centro Sambil Maracaibo​ es un importante centro comercial ubicado en la av. Guajira en la Zona Industrial
+      Norte de la ciudad de Maracaibo, estado Zulia.</p>
+  </div>
+</div>
+  <div class="imagen cajaImagen" onclick="alternarDetalle('detalle3')">
+    <img class="cajaImg" src="./style/assets/magiainflable.jpg" alt="Imagen 3">
+  <div id="detalle3" class="detalle">
+    <h2 class="encabezados">PARQUE MAGIA INFLABLE</h2>
+    <p class="parrafo">Parque de Recreación Infantil ubicado dentro del C.C SAMBIL MARACAIBO</p>
+  </div>
+</div>
+  <!-- Otros contenidos de la página... -->
+
+</body>
+
+</html>

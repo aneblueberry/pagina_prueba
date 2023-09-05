@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style/form.css">
+
+</head>
+
+<body>
+    <style>
+        /* width */
+        ::-webkit-scrollbar {
+          width: 15px;
+        }
+        
+        /* Track */
+        ::-webkit-scrollbar-track {
+          box-shadow: inset 0 0 5px grey; 
+          border-radius: 10px;
+        }
+         
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+          background: #eed6a8; 
+          border-radius: 10px;
+        }
+        
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+          background:#003B62;  
+        }
+        </style>
+    <header>
+        <nav>
+            <ul style="display: flex; justify-content: space-around;">
+                <li><button class="btn"><a href="index.html">Inicio</button></a></li>
+                <li><button class="btn"><a href="accomodation.html">Alojamiento</button></a></li>
+                <li><button class="btn"><a href="actividades.html">Visitas y Actividades</button></a></li>
+                <li><button class="btn"><a href="entretenimiento.html">Entretenimiento</button></a></li>
+                <li><button class="btn"><a href="form.html">Contactanos</button></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1 class="encabezadoP">Formulario de Contacto</h1>
+
+        <div class="containerForm">
+            <form method="post" action="mailto:andrea_14_00@hootmail.com">
+            <div class="formSection">
+                <label for="nombre">Nombre:</label>
+                <input class="formSectionInput" type="text" id="nombre" name="nombre" placeholder="Nombre y Apellido">
+            </div>
+            <div class="formSection">
+                <label for="email">Email:</label>
+                <input class="formSectionInput" type="email" id="email" name="email" required placeholder="example@algo.com">
+            </div>
+            <div class="formSection">
+                <label for="mensaje">Mensaje:</label>
+                <textarea class="formSectionInput" id="mensaje" name="mensaje" required placeholder="¿Cuéntanos qué te pareció?"></textarea>
+            </div>
+            <div class="boton-enviar">
+                <button class="btnn">Enviar</button>
+            </div>
+            </form>
+        </div>
+    </section>
+</body>
+<footer class="foter">
+    <span class="foterText"><strong>¡Gracias por visitar mi pagina!</strong></span>
+</footer>
+
+</html>

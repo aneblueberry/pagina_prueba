@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+}
+
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #003B62;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content:
+        /*space-around;*/
+        center
+}
+
+li {
+    list-style: none;
+    /* float: left */
+}
+.btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #f7f7f7;
+    font-size: 10 !important; 
+    font-weight: 300px;
+    color: whitesmoke;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    padding: 10px 10px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 20px;
+    box-shadow: 0 6px #312fa8;
+  
+}
+
+.btn:hover {
+    box-shadow: 0 4px #052e9e;
+    top: 2px;
+}
+
+.btn:active {
+    box-shadow: none;
+    top: 6px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+.hipervinculos {
+  display: flex;
+  justify-content: center;
+} body {
+  background-color: #eed6a8;
+  font-family: 'Kanit', sans-serif;
+  color: rgb(12, 12, 11);
+
+}
+
+a {
+  outline: none;
+  color: brown;
+  text-decoration: none;
+  /* padding: 10px; */
+  /* background-color: white; */
+  border-radius: 5px;
+  color: black;
+}
+
+a:visied {
+  color: brown;
+}
+
+a:link {
+  color: orange
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .parrafo {
+    font-family: 'Kanit', sans-serif;
+    text-align: justify;
+    margin: 10px;
+    color: black
+  }
+
+  .hotelLago{
+    background: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/6c/8f/df/hotel-del-lago-golf-resort.jpg?w=700&h=-1&s=1") no-repeat center;
+  background-size: cover;
+  position: relative;
+  }
+  .hotelmaruma{
+    background: url("https://d2xf5gjipzd8cd.cloudfront.net/available/977707338/977707338_WxH.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+  }
+  .hotelkristoff{
+  background: url("https://z.cdrst.com/foto/hotel-sf/10417/granderesp/hotel-kristoff-general-dd110cd.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+  }
+  .divv {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}

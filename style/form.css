@@ -1,0 +1,180 @@
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #003B62;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content:
+        /*space-around;*/
+        center
+}
+
+li {
+    list-style: none;
+    /* float: left */
+}
+
+.btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background-color: #f7f7f7;
+    /* font-size: 12 !important; */
+    font-weight: 300px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 10px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 20px;
+    box-shadow: 0 6px #312fa8;
+}
+
+.btn:hover {
+    box-shadow: 0 4px #052e9e;
+    top: 2px;
+}
+
+.btn:active {
+    box-shadow: none;
+    top: 6px;
+}
+
+body {
+    background-color: #eed6a8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 97vh;
+}
+
+.btnn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background-color: #f7f7f7;
+    font-weight: 300px;
+    color: #003b62;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 46px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 20px;
+    box-shadow: 0 6px #a4bfd1;
+}
+
+.btnn:hover {
+    box-shadow: 0 4px #052e9e;
+    top: 2px;
+}
+
+.btnn:active {
+    box-shadow: none;
+    top: 6px;
+}
+
+.encabezadoP {
+    margin: 30px 20px;
+    display: center;
+    text-align: justify;
+    color: black;
+    text-align: center;
+}
+
+section {
+    font-family: 'Kanit', sans-serif;
+    flex: 1;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    font-weight: bold;
+    padding: 5px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+}
+
+input::placeholder, textarea::placeholder{
+    font-size: 10px;
+    color: #a4bfd1;
+}
+
+.btnn {
+    background-color: #003b62;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btnn:hover {
+    background-color: #0056b3;
+}
+.foter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.foterText {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    justify-content: center;
+    height: 30px;
+    background-color: #003b62;
+    color: white;
+}
+
+.containerForm{
+display: flex;
+flex-direction: column;
+margin: 10px;
+}
+
+.formSection{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+.formSectionInput{
+    width: 60%;
+}
+
+.boton-enviar {
+    display: flex;
+    justify-content: center;
+}
